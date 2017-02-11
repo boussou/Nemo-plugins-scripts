@@ -1,0 +1,23 @@
+> /tmp/zob.txt
+
+path=$(echo $NEMO_SCRIPT_CURRENT_URI|cut -c 8-)
+space='%20'
+path="${path//\%20/ }"
+echo $path >> /tmp/zob.txt
+
+catfish "$path"
+
+
+#catfish "$(echo $NEMO_SCRIPT_CURRENT_URI|cut -c 8-)"
+
+
+#echo "$(echo $NEMO_SCRIPT_CURRENT_URI|cut -c 8-)" >> /tmp/zob.txt
+#echo $(echo $NEMO_SCRIPT_CURRENT_URI|cut -c 8-) >> /tmp/zob.txt
+
+
+#echo $NEMO_SCRIPT_SELECTED_FILE_PATHS >> /tmp/zob.txt
+
+#echo $NEMO_SCRIPT_SELECTED_URIS >> /tmp/zob.txt
+
+
+

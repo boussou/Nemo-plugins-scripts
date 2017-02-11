@@ -1,0 +1,13 @@
+
+# NEMO_SCRIPT_SELECTED_FILE_PATHS: newline-delimited paths for selected files (only if local)
+# NEMO_SCRIPT_SELECTED_URIS: newline-delimited URIs for selected files
+# NEMO_SCRIPT_CURRENT_URI: URI for current location
+# NEMO_SCRIPT_WINDOW_GEOMETRY: position and size of current window
+
+# NEMO_SCRIPT_SELECTED_FILE_PATHS: newline-delimited paths for selected files (only if local)
+
+
+if [ -z $NEMO_SCRIPT_SELECTED_FILE_PATHS ]; then NEMO_SCRIPT_SELECTED_FILE_PATHS=.; fi
+
+mate-disk-usage-analyzer $NEMO_SCRIPT_SELECTED_FILE_PATHS
+
