@@ -1,7 +1,10 @@
 # Nemo-plugins-scripts
 
 Purpose:
-add context menus to the **Nemo file browser** (Mint file browser)
+add context menus to the **Nemo file browser** (Mint file browser).
+
+I did it for myself, this repo exists just to share with those who might be interested.
+Linux Users, Arch / Manjaro with Cinnamon (Though I use Nemo on XFCE)
 
 
 ###Quick doc:
